@@ -1,0 +1,106 @@
+.mw-bs .container
+{
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin: 0;
+}
+
+.mw-bs .main:first-of-type
+{
+    margin: 0;
+}
+
+.work-queues
+{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    bottom: 30px;
+    background-color: #eeeeee;
+}
+
+.work-queues-tree
+{
+	background: #fdfdfd;
+}
+
+.header-spacer
+{
+	float: left;
+	background-color: #008cba;
+	border-color: #0079a1;
+	width: 40px;
+	height: 100%;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+.work-queues-tree
+{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 20%;
+}
+
+.work-items
+{
+    position: absolute;
+    right: 0;
+    height: 100%;
+	width: 80%;
+	background: #fdfdfd;
+}
+
+.work-items-list
+{
+    position: absolute;
+    right: 0;
+    height: 33%;
+	width: 100%;
+	border-bottom: 4px solid #ccc;
+}
+
+.work-item-frame
+{
+    position: absolute;
+	right: 0;
+	bottom: 0px;
+    height: 67%;
+    width: 100%;
+}

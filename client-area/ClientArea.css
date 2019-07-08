@@ -1,0 +1,7 @@
+.client-area {
+    top: 80px;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    border: none;
+}

@@ -1,0 +1,61 @@
+.mw-bs .container
+{
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin: 0;
+}
+
+.mw-bs .main:first-of-type
+{
+    margin: 0;
+}
+
+.query-tool
+{
+	position: absolute;
+    width: 100%;
+    top: 80px;
+    bottom: 30px;
+    background-color: #fdfdfd;
+}
+
+.query-tool-tools
+{
+	position: absolute;
+    left: 0;
+    height: 100%;
+	width: 20%;
+    border-right: 4px solid #ccc;
+    box-sizing: content-box;
+}
+
+.query-tool-results
+{
+	position: absolute;
+    right: 0;
+    height: 100%;
+    width: 80%;
+    box-sizing: content-box;
+}
+
+.query-tool-items
+{
+	position: absolute;
+    right: 0;
+    height: 33%;
+	width: 100%;
+    border-bottom: 4px solid #ccc;
+    box-sizing: border-box;
+}
+
+.query-tool-details
+{
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+    height: 67%;
+    width: 100%;
+    background-color: #fdfdfd;
+}
+
